@@ -1,21 +1,46 @@
     *{
 font-family: 'Poppins', sans-serif;
 }
- 
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: #FF8787;
+}
+
+/* mouse over link */
+  color: #004A00;
+}
+
+/* making icons work */
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* background colour */
 body {
   background-color: #CBE6C2;
 }
 
+/* big header text colour */
 h1 {
   color: #0C170C;
   margin-left: 0px;
 }
 
+/* header text colour */
 h2 {
   color: #0C170C;
   margin-left: 10px;
 }
 
+/* Text colour */
 p {
   color: #0C170C;
   margin-left: 10px;
